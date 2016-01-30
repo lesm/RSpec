@@ -15,5 +15,11 @@ describe Calculator do
       expect(@cal.subtract(6,4)).to eq 2
     end
   end
+  
+  context '#divide' do
+    it 'return 3 when receives 12,4' do
+      expect(@cal.divide(12,4)).to eq 3 
+    end
+  end
 
 end
