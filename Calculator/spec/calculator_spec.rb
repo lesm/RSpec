@@ -22,4 +22,10 @@ describe Calculator do
     end
   end
 
+  context '#multiply' do
+    it 'return 25 when receives 5,5' do
+      expect(@cal.multiply(5,5)).to eq 25 
+    end
+  end
+
 end
